@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(27, 6, 209);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+div>img {
+    border-radius: 50%;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0;
+    padding: 0;
+}
+
+.character {
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 50%;
+}
+img:hover{
+transform: scale(0.8);
+transition: 0.7s;
+}
